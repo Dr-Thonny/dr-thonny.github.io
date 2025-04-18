@@ -1,144 +1,139 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="fr" dir="ltr">  <!-- Ajout de dir="ltr" pour clarifier le sens de lecture -->
+<html lang="fr" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Meta description améliorée avec mots-clés stratégiques -->
     <meta name="description" content="Portfolio de RAJAONARIVELO DIMBINIAINA Thonny, étudiant en CNMP M1 à l'EMIT. Web design, modération de contenu et assistance virtuelle. Découvrez mes compétences en communication numérique.">
-    <!-- Balises Open Graph pour les réseaux sociaux -->
+    <meta name="keywords" content="portfolio, Rajaonarivelo Dimbiniaina Thonny, communication digitale, community management, gestion de projet, modérateur, réseaux sociaux, création de contenu, Madagascar">
     <meta property="og:title" content="RAJAONARIVELO DIMBINIAINA Thonny | Portfolio CNMP M1">
     <meta property="og:description" content="Étudiant en Communication Numérique et Management de Projet - Expérience en freelance web.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://dr-thonny.github.io">  <!-- À remplacer -->
-    
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Portfolio de Rajaonarivelo Dimbiniaina Thonny, étudiant en communication digitale et management de projet. Découvrez mes compétences en community management, création de contenu et gestion de projets.">
-        <meta name="keywords" content="portfolio, Rajaonarivelo Dimbiniaina Thonny, communication digitale, community management, gestion de projet, modérateur, réseaux sociaux, création de contenu, Madagascar">
-      
-    <!-- Favicon (recommandé) -->
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <meta property="og:url" content="https://dr-thonny.github.io">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" sizes="32x32">
 
-    <!--==================== UNICONS ====================-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" crossorigin="anonymous">
-
-    <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" preload>
-
-    <!--==================== CSS ====================-->
-    <link rel="stylesheet" href="assets/css/styles.css" preload>
-
-    <!-- initiation de connexion @ google font -->
+    <!-- Google Fonts : préchargement et chargement -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" media="all">
 
-    <!-- Suppression du lien PHP inutile en HTML -->
-    
-    <title>RAJAONARIVELO DIMBINIAINA Thonny | Étudiant CNMP M1 EMIT Fianarantsoa | Web Design & Communication Numerique Management de Projet</title>  <!-- Titre raccourci et optimisé -->
+    <!-- UNICONS (chargement différé si possible) -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" crossorigin="anonymous">
+
+    <!-- SWIPER CSS (chargement différé si non critique) -->
+    <link rel="preload" as="style" href="assets/css/swiper-bundle.min.css" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/swiper-bundle.min.css"></noscript>
+
+    <!-- CSS principal (toujours chargé) -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>RAJAONARIVELO DIMBINIAINA Thonny | Étudiant CNMP M1 EMIT Fianarantsoa | Web Design & Communication Numérique Management de Projet</title>
 </head>
+
+
 <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header" role="banner">
         <nav class="nav container" aria-label="Navigation principale">
-            <a href="#home" class="nav_logo" aria-label="Accueil">
-                <strong>Thonny RD.</strong>
-            </a>
-    
-            <div class="nav_menu" id="nav-menu">
-                <ul class="nav_list">
-                    <li class="nav-item">
-                        <a href="#home" class="nav_link active_link" aria-current="page">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav_link">À Propos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#skills" class="nav_link">Compétences</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#services" class="nav_link">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav_link">Contact</a>
-                    </li>
-                </ul>
-                <button class="nav_close" id="nav-close" aria-label="Fermer le menu">
-                    <i class="uil uil-times nav_close" aria-hidden="true"></i>
-                </button>
-            </div>
-    
-            <div class="nav_btns">
-                <!--===== THEME CHANGE BUTTON =====-->
-                <i class="uil uil-moon change_theme" id="theme-button"></i>
-    
-                <div class="nav_toggle" id="nav-toggle">
-                    <i class="uil uil-bars"></i> <!-- Icône de menu hamburger -->
-                </div>
-            </div>
+        <a href="#home" class="nav_logo" aria-label="Accueil">
+            <strong>Thonny RD.</strong>
+        </a>
+        <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list">
+                <li class="nav-item">
+                    <a href="#home" class="nav_link active_link" aria-current="page">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav_link">À Propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav_link">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav_link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav_link">Contact</a>
+                </li>
+            </ul>
+            <button class="nav_close" id="nav-close" aria-label="Fermer le menu">
+                <i class="uil uil-times" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="nav_btns">
+            <!--===== THEME CHANGE BUTTON =====-->
+            <button class="change_theme" id="theme-button" aria-label="Changer le thème">
+                <i class="uil uil-moon" aria-hidden="true"></i>
+            </button>
+            <button class="nav_toggle" id="nav-toggle" aria-label="Ouvrir le menu">
+                <i class="uil uil-bars" aria-hidden="true"></i>
+            </button>
+        </div>
         </nav>
     </header>
 
-    <!--==================== MAIN ====================-->
-    <main class="main">
-        <!--==================== HOME ====================-->
-        <section class="home section" id="home">
-            <div class="home_container container grid">
-                <div class="home_img">
-                    <!-- Image optimisée avec lazy loading -->
-                    <img src="assets/img/home.PNG" 
-                         alt="Thonny RAJAONARIVELO DIMBINIAINA - Étudiant en CNMP M1 à l'EMIT" 
-                         class="home_img" 
-                         loading="lazy"
-                         width="300" 
-                         height="300">
-                </div>
 
-                <div class="home_data">
-                    <h1 class="home_title">Salut, Je suis<br><span class="highlight">RAJAONARIVELO DIMBINIAINA Thonny</span></h1>
-                    <h2 class="home_subtitle">Étudiant en Communication Numérique et Management de Projet (CNMP)</h2>  <!-- Changé en h2 pour hiérarchie SEO -->
-                    <p class="home_description">
-                        Spécialisé en <strong>web design</strong>, <strong>modération de contenu</strong>, et <strong>assistance virtuelle</strong>. Passionné par la gestion de projets digitaux.
-                    </p>
-                    <a href="#contact" class="button button--flex" aria-label="Contactez-moi">
-                        Contactez-moi <i class="uil uil-message button__icon" aria-hidden="true"></i>
+<!--==================== MAIN ====================-->
+<main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+        <div class="home_container container grid">
+            <div class="home_img">
+                <!-- Image optimisée avec lazy loading et format moderne -->
+                <img src="assets/img/home.webp"
+                     alt="Thonny RAJAONARIVELO DIMBINIAINA - Étudiant en CNMP M1 à l'EMIT"
+                     class="home_img"
+                     loading="lazy"
+                     width="300"
+                     height="300">
+            </div>
+            <div class="home_data">
+                <h1 class="home_title">
+                    Salut, Je suis<br>
+                    <span class="highlight">RAJAONARIVELO DIMBINIAINA Thonny</span>
+                </h1>
+                <h2 class="home_subtitle">
+                    Étudiant en Communication Numérique et Management de Projet (CNMP)
+                </h2>
+                <p class="home_description">
+                    Spécialisé en <strong>web design</strong>, <strong>modération de contenu</strong>, et <strong>assistance virtuelle</strong>. Passionné par la gestion de projets digitaux.
+                </p>
+                <a href="#contact" class="button button--flex" aria-label="Contactez-moi">
+                    Contactez-moi <i class="uil uil-message button__icon" aria-hidden="true"></i>
+                </a>
+                <div class="home_scroll">
+                    <a href="#about" class="home_scroll-button button--flex" aria-label="Défiler vers la section À Propos">
+                        <i class="uil uil-mouse-alt home_scroll-mouse" aria-hidden="true"></i>
+                        <span class="home_scroll-name">Défiler</span>
+                        <i class="uil uil-arrow-down home_scroll-arrow" aria-hidden="true"></i>
                     </a>
-        
-                    <div class="home_scroll">
-                        <a href="#about" class="home_scroll-button button--flex" aria-label="Défiler vers la section À Propos">
-                            <i class="uil uil-mouse-alt home_scroll-mouse" aria-hidden="true"></i>
-                            <span class="home_scroll-name">Défiler</span>  <!-- Correction orthographique -->
-                            <i class="uil uil-arrow-down home_scroll-arrow" aria-hidden="true"></i>
+                </div>
+                <div class="home_social">
+                    <span class="home_social-follow">Suivez-moi</span>
+                    <div class="home_social-links">
+                        <a href="https://www.facebook.com/Dr-Thonny" target="_blank" rel="noopener noreferrer" class="home_social-icon" aria-label="Facebook">
+                            <i class="uil uil-facebook-f" aria-hidden="true"></i>
                         </a>
-                    </div>
-     
-                    <div class="home_social">
-                        <span class="home_social-follow">Suivez-moi</span>
-                        <div class="home_social-links">
-                            <!-- Liens sociaux avec attributs noopener/noreferrer -->
-                            <a href="https://www.facebook.com/Dr-Thonny" target="_blank" rel="noopener noreferrer" class="home_social-icon" aria-label="Facebook">
-                                <i class="uil uil-facebook-f" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/thonny-rajaonarivelo-dimbiniaina99" target="_blank" rel="noopener noreferrer" class="home_social-icon" aria-label="LinkedIn">
-                                <i class="uil uil-linkedin-alt" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer" class="home_social-icon" aria-label="GitHub">
-                                <i class="uil uil-github-alt" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://www.instagram.com/thonny_rajaonarivelo" target="_blank" rel="noopener noreferrer" class="home_social-icon" aria-label="Instagram">
-                                <i class="uil uil-instagram-alt" aria-hidden="true"></i>
-                            </a>
-                        </div>
+                        <a href="https://www.linkedin.com/in/thonny-rajaonarivelo-dimbiniaina99" target="_blank" rel="noopener noreferrer" class="home_social-icon" aria-label="LinkedIn">
+                            <i class="uil uil-linkedin-alt" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer" class="home_social-icon" aria-label="GitHub">
+                            <i class="uil uil-github-alt" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/thonny_rajaonarivelo" target="_blank" rel="noopener noreferrer" class="home_social-icon" aria-label="Instagram">
+                            <i class="uil uil-instagram-alt" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+
+
     
 
            <!--==================== ABOUT ====================-->
-<section class="about section" id="about" aria-labelledby="about-heading">
+ <section class="about section" id="about" aria-labelledby="about-heading">
     <div class="section__header">
         <h2 id="about-heading" class="section__title">À Propos de Moi</h2>
         <span class="section__subtitle">Mon parcours et compétences</span> <!-- Texte plus descriptif -->
@@ -191,10 +186,10 @@
             </div>
         </div>
     </div>
-</section>
+ </section>
 
             <!--==================== SKILLS ====================-->
-<section class="skills section" id="skills" aria-labelledby="skills-heading">
+ <section class="skills section" id="skills" aria-labelledby="skills-heading">
     <div class="section__header">
         <h2 id="skills-heading" class="section__title">Compétences Techniques</h2>
         <span class="section__subtitle">Mon expertise en développement et design</span>
@@ -359,7 +354,7 @@
             </div>
         </div>
     </div>
-</section>
+ </section>
 
             <!--==================== QUALIFICATION ====================-->
 <section class="qualification section">
