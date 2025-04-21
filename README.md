@@ -1,6 +1,6 @@
 # Portfolio de Rajaonarivelo Dimbiniaina Thonny
 
-Étudiant en Master I Communication Numérique et Management de Projet, passionné par la communication digitale, la gestion de projets et la création de contenu.
+Étudiant en Master I Communication Numérique et Management de Projet, passionné par la communication digitale, la gestion de projets, le community management et la création de contenu digital.
 
 ---
 
@@ -9,9 +9,9 @@
 - Prospection et acquisition de nouveaux clients  
 - Négociation et conclusion de ventes  
 - Développement et fidélisation d’un portefeuille client  
-- Élaboration de stratégies commerciales  
+- Élaboration de stratégies commerciales et marketing digital  
 - Analyse des besoins et proposition de solutions adaptées  
-- Gestion des réseaux sociaux et marketing digital  
+- Gestion des réseaux sociaux, community management et communication digitale  
 - Reporting et suivi des performances commerciales  
 
 ---
@@ -57,8 +57,8 @@
 
 ## Centres d’intérêt
 
-- Réseaux sociaux et communication digitale  
-- Création de contenu et storytelling  
+- Réseaux sociaux, communication digitale et community management  
+- Création de contenu, storytelling et marketing digital  
 - Veille sur les tendances du digital et du marketing  
 
 ---
@@ -71,3 +71,7 @@
 ---
 
 *Merci de visiter mon portfolio ! N’hésitez pas à me contacter pour toute collaboration ou opportunité professionnelle.*
+
+---
+
+**Mots-clés** : communication digitale, gestion de projet, community management, marketing digital, création de contenu, réseaux sociaux, storytelling, acquisition client, stratégie commerciale
