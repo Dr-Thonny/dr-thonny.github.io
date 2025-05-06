@@ -66,7 +66,7 @@ Contact
 
 - Email : rajaonarivelo.d.thonny@gmail.com  
 - Téléphone : +261384217744
-- Portfolio : dr-thonny.git Thonnyhub.io
+- Portfolio : dr-thonny.github.io
 
 
 
