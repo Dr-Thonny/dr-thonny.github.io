@@ -2,6 +2,12 @@
 <html lang="fr" dir="ltr">  
 
 <head>
+    
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" crossorigin="anonymous">
+    <link rel="preload" as="style" href="assets/css/swiper-bundle.min.css" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/swiper-bundle.min.css"></noscript>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio de RAJAONARIVELO DIMBINIAINA Thonny, étudiant en CNMP M1 à l'EMIT. Web design, modération de contenu et assistance virtuelle. Découvrez mes compétences en communication numérique.">
@@ -13,22 +19,48 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.png" sizes="32x32">
 
    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" media="all">
 
-    
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" crossorigin="anonymous">
-
-    
-    <link rel="preload" as="style" href="assets/css/swiper-bundle.min.css" onload="this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="assets/css/swiper-bundle.min.css"></noscript>
-
-    
-    <link rel="stylesheet" href="assets/css/styles.css">
 
     <title>RAJAONARIVELO DIMBINIAINA Thonny | Étudiant CNMP M1 EMIT Fianarantsoa | Web Design & Communication Numérique Management de Projet</title>
+
+<style>
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: hsl(142, 60%, 99%);
+  color: hsl(140, 60%, 5%);
+  margin: 0;
+}
+.header {
+  width: 100%;
+  background: hsl(142, 60%, 99%);
+  position: fixed;
+  top: 0; left: 0;
+  z-index: 100;
+}
+.home {
+  padding: 6.5rem 0 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+</style>
+
+
 </head>
   
 <body>
@@ -36,7 +68,7 @@
     <header class="header" id="header" role="banner">
         <nav class="nav container" aria-label="Navigation principale">
             <a href="#home" class="nav_logo" aria-label="Accueil">
-                <strong>Thonny RD.</strong>
+                <strong>DR Thonny.</strong>
             </a>
     
             <div class="nav_menu" id="nav-menu">
@@ -80,7 +112,7 @@
             <div class="home_container container grid">
                 <div class="home_img">
                     <!-- Image optimisée avec lazy loading -->
-                    <img src="assets/img/prfl.PNG" 
+                    <img src="assets/img/profill.webp" 
                          alt="Thonny RAJAONARIVELO DIMBINIAINA - Étudiant en CNMP M1 à l'EMIT" 
                          class="home_img" 
                          loading="eager"

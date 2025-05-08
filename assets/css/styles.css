@@ -1,5 +1,3 @@
-/*==================== GOOGLE FONTS ====================*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -302,9 +300,10 @@ img {
 
 .home_img{
   justify-self: center;
+  aspect-ratio: 1 / 1;
   background-color: var(--first-color);
   width: 200px;
-  height: 200px;
+  height: auto;
   border-radius: 45%;
   overflow: hidden;
   margin-bottom: var(--mb-1);
@@ -613,6 +612,7 @@ img {
 .skills_open .skills_arrow{
   transform: rotate(-180deg);
 }
+
 /*==================== QUALIFICATION ====================*/
 .qualification_tabs{
   display: flex;
@@ -683,6 +683,7 @@ img {
 .qualification_button.qualification_active{
   color: var(--first-color);
 }
+
 /*==================== SERVICES ====================*/
 .services_container{
   gap: 1.5rem;
@@ -1078,7 +1079,8 @@ img {
 
 
 /*==================== MEDIA QUERIES ====================*/
-/* For small devices */
+
+/* smartphone */
 @media screen and (max-width: 350px){
   .container{
     margin-left: var(--mb-1);
@@ -1171,9 +1173,10 @@ img {
 
   .home_img{
     justify-self: center;
+    aspect-ratio: 1 / 1;
     background-color: var(--first-color);
-    width: 240px;
-    height: 240px;
+    width: 250px;
+    height: auto;
     border-radius: 50%;
     overflow: hidden;
     order: 1;
@@ -1328,10 +1331,10 @@ img {
 
   .home_img{
     justify-self: center;
+    aspect-ratio: 1 / 1;
     background-color: var(--first-color);
-    width: 200px;
-    height: 200px;
-    border-radius: -20%;
+    width: 360px;
+    height: auto;
     overflow: hidden;
     order: 1;
     justify-content: center;
@@ -1345,7 +1348,7 @@ img {
 
   .home_scroll{
     visibility: visible;
-    padding: 20px 1%;
+    padding: 25px 1%;
   }
   
   .home_scroll_social{
@@ -1455,8 +1458,9 @@ img {
     }
 
     .home_img{
-      width: 440px;
-      height: 440px;
+      width: 840px;
+      height: auto;
+      aspect-ratio: 1 / 1;
     }
 
     .nav_toogle{
