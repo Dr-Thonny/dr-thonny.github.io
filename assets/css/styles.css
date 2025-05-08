@@ -1458,9 +1458,9 @@ img {
     }
 
     .home_img{
-      width: 640px;
-      height: auto;
       aspect-ratio: 1 / 1;
+      width: 400px;
+      height: auto;
     }
 
     .nav_toogle{
